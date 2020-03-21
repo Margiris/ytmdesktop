@@ -10,7 +10,7 @@ Steps for `yay` (my choice of AUR package manager) look like this:
 
 - `yay --editmenu -S ytmdesktop-git`
 - When you're asked "PGKBUILDS to edit?", type `A` to select All. This will open PKGBUILD in your default editor.
-- In PKGBUILD file find line starting with `source=` (around 16th line) and change it from <br> 'git+https://github.com/**ytmdesktop**/ytmdesktop.git' <br> to <br> 'git+https://github.com/**Margiris**/ytmdesktop.git' <br> (this simply changes sources from original to this repository).
+- In PKGBUILD file find line starting with `source=` (around 16th line) and change it from <br> `'git+https://github.com/`**`ytmdesktop`**`/ytmdesktop.git'` <br> to <br> `'git+https://github.com/`**`Margiris`**`/ytmdesktop.git'` <br> (this simply changes sources from original to this repository).
 - Save and close PKGBUILD.
 - Proceed with installation.
 
