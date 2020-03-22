@@ -10,8 +10,17 @@ const {
   ipcMain,
   systemPreferences,
   nativeTheme,
-  screen
+  screen,
+
+  session
 } = require("electron");
+
+const { ElectronBlocker } = require("@cliqz/adblocker-electron");
+const fetch = require("cross-fetch");
+ElectronBlocker.fromPrebuiltAdsAndTracking(fetch).then(blocker => {
+  blocker.enableBlockingInSession(session.defaultSession);
+});
+
 const path = require("path");
 const fs = require("fs");
 const scrobblerProvider = require("./providers/scrobblerProvider");

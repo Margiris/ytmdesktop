@@ -13,7 +13,7 @@
     "publish:mac": "build --mac -p always --config electron-builder64.yml",
     "publish:lin": "electron-builder --linux -p always --config electron-builder64.yml"
   },
-  "repository": "https://github.com/adlerluiz/ytmdesktop",
+  "repository": "https://github.com/Margiris/ytmdesktop",
   "keywords": [
     "Electron",
     "Youtube",
@@ -33,10 +33,12 @@
     "pretty-quick": "^1.11.1"
   },
   "dependencies": {
+    "@cliqz/adblocker-electron": "^1.9.2",
     "ace-builds": "^1.4.8",
     "base64-img": "^1.0.4",
     "bufferutil": "^4.0.1",
     "castv2-player": "^2.1.0",
+    "cross-fetch": "^3.0.4",
     "discord-rpc": "^3.1.0",
     "electron-canvas-to-buffer": "^2.0.0",
     "electron-clipboard-watcher": "^1.0.1",
