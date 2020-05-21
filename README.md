@@ -1,5 +1,8 @@
 # ytmdesktop-adblock
 
+## No longer updated.
+I've moved on to a native app that Chrome provides. Feel free to fork and keep up with upstream if needed.
+
 A fork of [ytmdesktop](https://github.com/ytmdesktop/ytmdesktop) with added adblocker from [cliqz-oss/adblocker](https://github.com/cliqz-oss/adblocker).
 No promises on keeping up with upstream.
 
